@@ -1,0 +1,17 @@
+class Box
+    @@count = 0
+    
+    def initialize(w,h)
+        @height, @width = h, w
+        @@count += 1
+    end
+
+    def self.printCount()
+        puts "Box count is: #@@count"
+    end
+end
+
+box1 = Box.new(10, 20)
+box2 = Box.new(40, 50)
+
+Box.printCount()
