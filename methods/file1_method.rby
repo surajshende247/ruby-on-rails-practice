@@ -1,0 +1,7 @@
+def test(a1 = "Ruby", a2 = "Perl")
+    puts "Language 1: #{a1}"
+    puts "Language 2: #{a2}"
+end
+
+test
+test "C","C++"
