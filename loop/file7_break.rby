@@ -1,0 +1,6 @@
+for i in 0..5
+    if i > 5 then
+        break
+    end
+    puts("Value of local variable is #{i}")
+end
